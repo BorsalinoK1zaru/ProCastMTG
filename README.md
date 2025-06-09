@@ -54,3 +54,7 @@
 ---
 
 *ProCastMTG - единая платформа для турниров по MTG в России*
+
+### roadMapping по спринтам
+
+![2025-06-09_20-43-25](https://github.com/user-attachments/assets/6e965715-3746-41d2-b864-d020e913afd3)
