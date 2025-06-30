@@ -1,12 +1,14 @@
 package com.boardgame.platform.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.List;
 
 @Entity
+@Data
 @Table(name = "tournaments")
 public class Tournament {
     @Id

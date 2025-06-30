@@ -1,10 +1,12 @@
 package com.boardgame.platform.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.io.Serializable;
 
 @Entity
+@Data
 @Table(name = "user_format")
 public class UserFormat {
     @EmbeddedId
