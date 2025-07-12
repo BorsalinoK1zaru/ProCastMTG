@@ -9,7 +9,9 @@ import java.io.Serializable;
 @Data
 @Table(name = "user_format")
 public class UserFormat {
-    @EmbeddedId
+    @Id
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "id_id", nullable = false)
     private UserFormatKey id;
 
     @ManyToOne

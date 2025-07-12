@@ -1,17 +1,16 @@
 package com.boardgame.platform.entity;
 
-import jakarta.persistence.Embeddable;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Entity
 @Data
-@Embeddable
+@Table(name = "user_format_key")
 public class UserFormatKey implements Serializable {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private Long userId;
