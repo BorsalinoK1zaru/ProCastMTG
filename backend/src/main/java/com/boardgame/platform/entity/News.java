@@ -22,5 +22,4 @@ public class News {
     private String content;
 
     private LocalDate datePublic;
-    // Геттеры, сеттеры, конструкторы
 }
