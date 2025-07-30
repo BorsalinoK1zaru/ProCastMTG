@@ -62,14 +62,14 @@ export default function Header() {
           {/* Кнопки авторизации */}
           <div className="flex space-x-4"> {/* Уменьшенный интервал */}
             <Link
-              href="/login"
+              href="/auth/login"
               className="px-4 py-2 rounded-md border border-black text-lg font-black hover:bg-gray-100 transition-colors no-underline flex items-center gap-1"
             >
               <ArrowRightStartOnRectangleIcon className="w-4 h-4" />
               Вход
             </Link>
             <Link
-              href="/register"
+              href="/auth/register"
               className="px-4 py-2 rounded-md bg-black text-white text-lg font-black hover:bg-gray-800 transition-colors no-underline flex items-center gap-1"
             >
               <UserPlusIcon className="w-4 h-4" />
