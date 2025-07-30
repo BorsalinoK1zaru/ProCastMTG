@@ -1,7 +1,16 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../styles/globals.css'
-import Header from '../component/Header'
+import Header from '../components/Header'
+import { Barlow } from 'next/font/google'
+
+const barlow = Barlow({
+  subsets: ['latin'],
+  variable: '--font-barlow',
+  weight: ['400', '900'] // Указываем нужные начертания
+})
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
