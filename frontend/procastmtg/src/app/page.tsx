@@ -1,28 +1,17 @@
+import Link from 'next/link'
 import data from '../test/test.json'
 
 export default function TournamentsPage() {
-  console.log("Loaded data:", data); // Проверка данных
-
-  // Функция для получения первого абзаца
-  const getFirstParagraph = (text: string): string => {
-    if (!text) return ''
-    
-    // Разделяем текст по двойным пробелам или символам перевода строки
-    const paragraphs = text.split(/\n\s*\n|\r?\n\r?/).filter(Boolean)
-    
-    // Возвращаем первый абзац (или весь текст, если абзацев нет)
-    return paragraphs.length > 0 ? paragraphs[0] : text
-  }
-
   return (
     <>
-      <h1 className="text-3xl font-bold text-blue-800 mb-6">Новости</h1>
+      <h1 className="text-3xl font-bold text-blue-800 mb-6">Турниры</h1>
       
       <div className="space-y-6">
-        {data.map((item, index) => (
-          <div 
-            key={index} 
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-3xl mx-auto"
+        {data.map((item) => (
+          <Link 
+            key={item.id} 
+            href={`/news/${item.id}`} // Переход по ID
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow max-w-3xl mx-auto block"
           >
             {/* Заголовок */}
             <h2 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h2>
@@ -41,14 +30,14 @@ export default function TournamentsPage() {
 
             {/* Первый абзац текста */}
             <p className="text-gray-700 leading-relaxed mb-3">
-              {getFirstParagraph(item.publication_text)}
+              {item.publication_text.split(/\n\s*\n/)[0]}
             </p>
 
             {/* Дата */}
             <span className="text-xs text-gray-500 block text-right">
               {new Date(item.publication_date).toLocaleDateString()}
             </span>
-          </div>
+          </Link>
         ))}
       </div>
     </>
