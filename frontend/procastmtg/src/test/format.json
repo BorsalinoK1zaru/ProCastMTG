@@ -1,0 +1,70 @@
+[
+  {
+    "id": "fmt_standard",
+    "format_name": "Standard"
+  },
+  {
+    "id": "fmt_modern",
+    "format_name": "Modern"
+  },
+  {
+    "id": "fmt_pioneer",
+    "format_name": "Pioneer"
+  },
+  {
+    "id": "fmt_pauper",
+    "format_name": "Pauper"
+  },
+  {
+    "id": "fmt_legacy",
+    "format_name": "Legacy"
+  },
+  {
+    "id": "fmt_vintage",
+    "format_name": "Vintage"
+  },
+  {
+    "id": "fmt_commander",
+    "format_name": "Commander"
+  },
+  {
+    "id": "fmt_brawl",
+    "format_name": "Brawl"
+  },
+  {
+    "id": "fmt_historic",
+    "format_name": "Historic"
+  },
+  {
+    "id": "fmt_alchemy",
+    "format_name": "Alchemy"
+  },
+  {
+    "id": "fmt_explorer",
+    "format_name": "Explorer"
+  },
+  {
+    "id": "fmt_draft",
+    "format_name": "Draft"
+  },
+  {
+    "id": "fmt_sealed",
+    "format_name": "Sealed"
+  },
+  {
+    "id": "fmt_cube",
+    "format_name": "Cube"
+  },
+  {
+    "id": "fmt_twoheaded_giant",
+    "format_name": "Two-Headed Giant"
+  },
+  {
+    "id": "fmt_oathbreaker",
+    "format_name": "Oathbreaker"
+  },
+  {
+    "id": "fmt_tiny_leaders",
+    "format_name": "Tiny Leaders"
+  }
+]

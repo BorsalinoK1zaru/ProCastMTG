@@ -1,0 +1,162 @@
+[
+  {
+    "id": "city_moscow",
+    "name": "Москва"
+  },
+  {
+    "id": "city_spb",
+    "name": "Санкт-Петербург"
+  },
+  {
+    "id": "city_novosibirsk",
+    "name": "Новосибирск"
+  },
+  {
+    "id": "city_ekb",
+    "name": "Екатеринбург"
+  },
+  {
+    "id": "city_kazan",
+    "name": "Казань"
+  },
+  {
+    "id": "city_nizhny_novgorod",
+    "name": "Нижний Новгород"
+  },
+  {
+    "id": "city_chelyabinsk",
+    "name": "Челябинск"
+  },
+  {
+    "id": "city_samara",
+    "name": "Самара"
+  },
+  {
+    "id": "city_omsk",
+    "name": "Омск"
+  },
+  {
+    "id": "city_rostov",
+    "name": "Ростов-на-Дону"
+  },
+  {
+    "id": "city_ufa",
+    "name": "Уфа"
+  },
+  {
+    "id": "city_krasnoyarsk",
+    "name": "Красноярск"
+  },
+  {
+    "id": "city_permi",
+    "name": "Пермь"
+  },
+  {
+    "id": "city_voronezh",
+    "name": "Воронеж"
+  },
+  {
+    "id": "city_volgograd",
+    "name": "Волгоград"
+  },
+  {
+    "id": "city_krasnodar",
+    "name": "Краснодар"
+  },
+  {
+    "id": "city_saratov",
+    "name": "Саратов"
+  },
+  {
+    "id": "city_tyumen",
+    "name": "Тюмень"
+  },
+  {
+    "id": "city_tolyatti",
+    "name": "Тольятти"
+  },
+  {
+    "id": "city_izhevsk",
+    "name": "Ижевск"
+  },
+  {
+    "id": "city_barnaul",
+    "name": "Барнаул"
+  },
+  {
+    "id": "city_ulyanovsk",
+    "name": "Ульяновск"
+  },
+  {
+    "id": "city_irkutsk",
+    "name": "Иркутск"
+  },
+  {
+    "id": "city_khabarovsk",
+    "name": "Хабаровск"
+  },
+  {
+    "id": "city_yaroslavl",
+    "name": "Ярославль"
+  },
+  {
+    "id": "city_vladivostok",
+    "name": "Владивосток"
+  },
+  {
+    "id": "city_makhachkala",
+    "name": "Махачкала"
+  },
+  {
+    "id": "city_tomsk",
+    "name": "Томск"
+  },
+  {
+    "id": "city_orenburg",
+    "name": "Оренбург"
+  },
+  {
+    "id": "city_kemerovo",
+    "name": "Кемерово"
+  },
+  {
+    "id": "city_novokuznetsk",
+    "name": "Новокузнецк"
+  },
+  {
+    "id": "city_ryazan",
+    "name": "Рязань"
+  },
+  {
+    "id": "city_astrakhan",
+    "name": "Астрахань"
+  },
+  {
+    "id": "city_naberezhnye_chelny",
+    "name": "Набережные Челны"
+  },
+  {
+    "id": "city_penza",
+    "name": "Пенза"
+  },
+  {
+    "id": "city_lipetsk",
+    "name": "Липецк"
+  },
+  {
+    "id": "city_kirov",
+    "name": "Киров"
+  },
+  {
+    "id": "city_cheboksary",
+    "name": "Чебоксары"
+  },
+  {
+    "id": "city_tula",
+    "name": "Тула"
+  },
+  {
+    "id": "city_kaliningrad",
+    "name": "Калининград"
+  }
+]
