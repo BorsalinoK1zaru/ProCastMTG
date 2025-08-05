@@ -104,14 +104,21 @@ export default function LoginPage() {
         </div>
 
         <button
-          onClick={() => alert('Функционал Google-авторизации')}
-          className="w-full flex items-center justify-center gap-2 py-3 px-4 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
-        >
-          <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h7.55a6.65 6.65 0 01-2.59 3.84C17.5 18.53 14.54 19.5 11.47 19.5c-4.62 0-8.46-3.09-9.69-7.19C1.2 6.34 4.32 2.5 8.59 2.5c2.65 0 4.94 1.22 6.47 3.15l3.03-3.03C17.14 2.46 20.42 4.85 22.56 8.25c.5 1.12.77 2.35.77 3.6z"/>
-          </svg>
-          Войти через Google
-        </button>
+  onClick={() => alert('Функционал Google-авторизации')}
+  className="w-full flex items-center justify-center gap-3 py-3 px-6 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+  style={{ overflow: 'visible' }} // ← Ключевой стиль
+>
+  <svg 
+    className="w-6 h-6 text-blue-600" 
+    viewBox="0 0 24 24" 
+    fill="currentColor"
+    style={{ transform: 'translateY(-1px)' }} // Поднимаем иконку
+  >
+    <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h7.55a6.65 6.65 0 01-2.59 3.84C17.5 18.53 14.54 19.5 11.47 19.5c-4.62 0-8.46-3.09-9.69-7.19C1.2 6.34 4.32 2.5 8.59 2.5c2.65 0 4.94 1.22 6.47 3.15l3.03-3.03C17.14 2.46 20.42 4.85 22.56 8.25c.5 1.12.77 2.35.77 3.6z"/>
+  </svg>
+  Войти через Google
+</button>
+
 
         <p className="text-center text-sm text-gray-600">
           Нет аккаунта?{' '}

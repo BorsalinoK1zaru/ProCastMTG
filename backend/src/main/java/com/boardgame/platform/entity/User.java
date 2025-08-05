@@ -3,6 +3,8 @@ package com.boardgame.platform.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.Set;
+
 @Entity
 @Data
 @Table(name = "users")
@@ -22,6 +24,9 @@ public class User {
 
     @Enumerated(EnumType.STRING)
     private UserStatus status;
+
+    @OneToMany(mappedBy = "user")
+    private Set<UserFormat> userFormats;
 
     public enum UserStatus {
         ADMIN, USER

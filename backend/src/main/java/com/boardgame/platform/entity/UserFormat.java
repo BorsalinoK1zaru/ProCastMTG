@@ -3,15 +3,12 @@ package com.boardgame.platform.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.io.Serializable;
-
 @Entity
 @Data
 @Table(name = "user_format")
 public class UserFormat {
-    @Id
-    @ManyToOne(optional = false)
-    @JoinColumn(name = "id_id", nullable = false)
+
+    @EmbeddedId
     private UserFormatKey id;
 
     @ManyToOne
@@ -25,6 +22,4 @@ public class UserFormat {
     private Format format;
 
     private Integer points;
-    // Геттеры, сеттеры, конструкторы
 }
-
