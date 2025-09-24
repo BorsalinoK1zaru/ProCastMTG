@@ -3,7 +3,7 @@
 Сервис для организации турниров по коллекционной карточной игре Magic: the Gathering, объединяющий российских игроков в единую турнирную среду.
 
 **Технологический стек:**
-- **Frontend:** HTML, CSS, JavaScript, React
+- **Frontend:** HTML, CSS, JavaScript, Next.JS
 - **Backend:** Java, Spring
 - **Database:** PostgreSQL
 
